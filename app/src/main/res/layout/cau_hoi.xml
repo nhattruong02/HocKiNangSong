@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/quaylai"
+        android:id="@+id/quaylai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/txtdiem"
+        android:layout_below="@id/quaylai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Điểm:"
+        android:textColor="#F12415"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtdiemso"
+        android:layout_below="@id/quaylai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/txtdiem"
+        android:text="0"
+        android:textColor="#F12415"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgdongho"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/txtdiem"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:src="@drawable/donghocat" />
+
+    <TextView
+        android:id="@+id/txtthoigian"
+        android:textColor="#F12415"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdiem"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imgdongho"
+        android:text="00:30"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtcauhoi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imgdongho"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button_1"
+        android:paddingLeft="10dp"
+        android:scrollbars="vertical"
+        android:text="Câu hỏi"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:scrollbars="vertical"
+        android:id="@+id/btndapanA"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/txtcauhoi"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button_1"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="Đáp án A"
+        android:textColor="@color/white" />
+
+    <Button
+        android:scrollbars="vertical"
+        android:id="@+id/btndapanB"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/btndapanA"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button_1"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="Đáp án B"
+        android:textColor="@color/white" />
+
+    <Button
+        android:scrollbars="vertical"
+        android:id="@+id/btndapanC"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/btndapanB"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button_1"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="Đáp án C"
+        android:textColor="@color/white" />
+
+    <Button
+        android:scrollbars="vertical"
+        android:id="@+id/btndapanD"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/btndapanC"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/custom_button_1"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="Đáp án D"
+        android:textColor="@color/white" />
+</RelativeLayout>

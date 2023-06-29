@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/updatech"
+        android:title="Sửa câu hỏi"/>
+    <item android:id="@+id/deletech"
+        android:title="Xoá câu hỏi"/>
+</menu>

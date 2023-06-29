@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/bo_goc.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/bo_goc_chu_de.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/camera.xml" value="0.1665" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/custom_button.xml" value="0.1665" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/custom_button_1.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/custom_button_2.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/edit_text.xml" value="0.1665" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/ic_caidat.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/icon_key.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/icon_person.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/drawable/iconadd.xml" value="0.1655" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/bai_hoc.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/cau_hoi.xml" value="0.25" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/chi_tiet_bai_hoc.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/chu_de.xml" value="0.17864583333333334" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dang_ky.xml" value="0.22" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dang_nhap.xml" value="0.25" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_sua_bai_hoc.xml" value="0.2" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_sua_cau_hoi.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_sua_chu_de.xml" value="0.17760416666666667" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_them_bai_hoc.xml" value="0.1734375" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_them_cau_hoi.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_them_chu_de.xml" value="0.17760416666666667" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dialog_xem_video.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/doi_mat_khau.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/doimatkhau.xml" value="0.19947916666666668" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dong_bai_hoc.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dong_cau_hoi.xml" value="0.1734375" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/dong_chu_de.xml" value="0.17760416666666667" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/hoan_thanh_cau_hoi.xml" value="0.25" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/quan_ly_cau_hoi.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/layout/xem_video.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/menu/menu.xml" value="0.17864583333333334" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/menu/menu_1.xml" value="0.17760416666666667" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/menu/menu_2.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/menu/menu_3.xml" value="0.17447916666666666" />
+        <entry key="..\:/a ki 1 n3/Project Android/App_hoc_ki_nang_song/app/src/main/res/menu/menu_4.xml" value="0.17447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

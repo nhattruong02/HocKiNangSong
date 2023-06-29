@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tenctbh"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:text="Tên bài học"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/noidung"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Nội dung"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="600dp"/>
+    <Button
+        android:id="@+id/btnvideo"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        android:text="Xem Video"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

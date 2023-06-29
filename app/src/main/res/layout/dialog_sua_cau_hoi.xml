@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:textColor="#1888E4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Sửa câu hỏi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuacauhoi"
+        android:textSize="30dp"
+        android:hint="Câu hỏi"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuadapanA"
+        android:textSize="30dp"
+        android:hint="Đáp án A"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuadapanB"
+        android:textSize="30dp"
+        android:hint="Đáp án B"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuadapanC"
+        android:textSize="30dp"
+        android:hint="Đáp án C"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuadapanD"
+        android:textSize="30dp"
+        android:hint="Đáp án D"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuadapandung"
+        android:textSize="30dp"
+        android:hint="Đáp án đúng"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnsuacauhoi"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnthoatsuacauhoi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:text="Thoát" />
+    </LinearLayout>
+</LinearLayout>

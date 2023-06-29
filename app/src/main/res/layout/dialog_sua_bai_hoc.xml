@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:textColor="#1888E4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Sửa bài học"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:layout_margin="20dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnsuahinhbaihoc"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@null"
+        android:src="@drawable/camera" />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuatenbaihoc"
+        android:textSize="30dp"
+        android:hint="Tên bài học"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuamota"
+        android:textSize="30dp"
+        android:hint="Mô tả"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuanoidung"
+        android:textSize="30dp"
+        android:hint="Nội dung"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtsuavideo"
+        android:textSize="30dp"
+        android:hint="Link video"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnsuabaihoc"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnthoatsuabaihoc"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:text="Thoát"
+            />
+    </LinearLayout>
+</LinearLayout>

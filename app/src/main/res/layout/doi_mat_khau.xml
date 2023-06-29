@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Doimatkhau">
+    <TextView
+        android:textColor="#1888E4"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Đổi mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edttk"
+        android:textSize="30dp"
+        android:hint="Tài khoản"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtmk"
+        android:textSize="30dp"
+        android:hint="Mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtmkmoi"
+        android:textSize="30dp"
+        android:hint="Mật khẩu mới"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <EditText
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edtxacnhanmk"
+        android:textSize="30dp"
+        android:hint="Xác nhận mật khẩu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btndoimk"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/custom_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thay đổi"/>
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btnhuydoimk"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/custom_button"
+            android:text="Huỷ" />
+    </LinearLayout>
+</LinearLayout>
